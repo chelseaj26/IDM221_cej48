@@ -109,10 +109,10 @@ body {
   }
   .button {
     padding: 5% 3%;
-    border: 3px solid #e0ccc8;
+    border: 3px solid #792110;
     letter-spacing: 0.2em;
     text-decoration: none;
-    color: #e0ccc8;
+    color: #792110;
     text-align: center;
     display: block;
     font-weight: 600;
@@ -121,7 +121,7 @@ body {
   }
   .button:hover {
     color: #fff;
-    background-color: #e0ccc8;
+    background-color: #792110;
   }
   .image-area {
     width: 480px;
@@ -136,7 +136,7 @@ body {
   }
   .contact {
     width: 100%;
-    background-color: #011833;
+    background-color: #E0CCC8;
     padding: 5% 0;
     margin-top: 5%;
     clear: both;
@@ -154,7 +154,7 @@ body {
     letter-spacing: 0.04em;
   }
   .contact-content a {
-    color: #E0CCC8;
+    color: #792110;
     text-decoration: none;
   }
   .image-divider {
