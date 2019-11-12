@@ -1,14 +1,10 @@
+
 body {
     background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 10% auto
   }
-  a {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-  }
+ 
   em {
     font-style: oblique;
   }
@@ -16,7 +12,7 @@ body {
     font-style: bold;
   }
   img {
-    width: 100%;
+    max-width: 400px;
   }
   h1, h2, h3, h4, h5 {
     font-family: proxima-nova, sans-serif;
@@ -34,37 +30,32 @@ body {
     url(img/laptop.jpg);
     background-size: cover;
     background-position: center top;
-    width: 100%;
   }
   .intro {
-    max-width: 960px;
-    margin: 0 auto;
+    margin: 10;
     padding: 8% 0;
   }
   .intro h1 {
-    font-size: 6em;
+    font-size: 4em;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.5em;
   }
   .intro h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 0.09em;
   }
   .wrapper {
-    max-width: 960px;
-    margin: 0 auto;
+    margin: 8px 0 ;
     font-family: proxima-nova, sans-serif;
-    -webkit-animation-delay: 4s;
-    /* Chrome, Safari, Opera */
-    animation-delay: 2s;
+   
   }
   .about {
     padding: 4% 0;
@@ -73,11 +64,11 @@ body {
     font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.70;
     color: #616569;
-    letter-spacing: .03em;
-    margin: 10px auto;
-    font-size: 1.5em;
+    letter-spacing: .02em;
+    margin: 10px 0 ;
+    font-size: 1.2em;
     padding: 2% 0;
   }
   .about p a {
@@ -86,15 +77,14 @@ body {
   }
   .work {
     height: 300px;
-    padding: 2% 0;
+    padding: 10% 0;
   }
   .work h3 {
-    padding: 4% 0;
+    padding: 10% 0;
   }
   .text-box {
     float: left;
     text-align: left;
-    width: 480px;
     background-color: #fff;
     height: 100%;
   }
@@ -110,6 +100,7 @@ body {
   .button {
     padding: 5% 3%;
     border: 3px solid #792110;
+    border-radius: 6px;
     letter-spacing: 0.2em;
     text-decoration: none;
     color: #792110;
@@ -124,33 +115,26 @@ body {
     background-color: #792110;
   }
   .image-area {
-    width: 480px;
+    width: 400px;
     height: 300px;
-    overflow: hidden;
+  
   }
-  .left {
-    float: left;
-  }
-  .right {
-    float: right;
-  }
+
   .contact {
-    width: 100%;
     background-color: #E0CCC8;
     padding: 5% 0;
     margin-top: 5%;
     clear: both;
   }
   .contact-content {
-    max-width: 960px;
     margin: 0 auto;
     text-align: center;
   }
   .contact-content h4 {
-    font-size: 1.875em;
+    font-size: 1.5em;
     padding: 1% 0;
     color: #fff;
-    font-weight: 600;
+    font-weight: 450;
     letter-spacing: 0.04em;
   }
   .contact-content a {
@@ -168,21 +152,19 @@ body {
     background-color: #E0CCC8;
     color: #fff;
     padding: 2% 0;
-    width: 100%;
     clear: both;
-    height: 100px;
+    height: 90px;
   }
   .footer-content {
-    max-width: 960px;
     padding: 2% 0;
-    margin: 0 auto;
+    margin: 0 400px;
     font-family: proxima-nova, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 1.4;
     color: #fff;
     letter-spacing: .03em;
-    font-size: 1em;
+    font-size: 0.625em;
   }
   .credit {
     float: left;
@@ -202,7 +184,7 @@ body {
   .social li a:hover {
     color: #011833;
   }
-  @media only screen and (max-width:1000px) {
+ 
     .wrapper {
       padding: 0% 4%;
     }
@@ -215,7 +197,6 @@ body {
       height: auto;
     }
     .text-box {
-      width: 100%;
       height: auto;
     }
     .social li a {
@@ -224,8 +205,7 @@ body {
     .footer-content {
       padding: 3.5%;
     }
-  }
-  @media only screen and (max-width:800px) {
+
     .intro h1 {
       font-size: 4em;
       line-height: 1.2;
@@ -239,22 +219,22 @@ body {
       line-height: 2;
     }
     footer {
-      height: 130px;
+      height: 100px;
       line-height: 1.3em;
     }
     .footer-content {
       padding: 4%;
-      font-size: 14px;
-    }
-    .social {
-      float: left;
+      font-size: .875rem;
     }
     .social li a {
-      font-size: 1.3em;
+      font-size: 1em;
+    }
+    .contact {
+      max-width: 400px;
     }
     .contact-content {
-      font-size: 12px;
+      font-size: 0.625rem;
       line-height: 1.5;
     }
-  }
-  
+
+ 
