@@ -1,7 +1,7 @@
 body {
     background-color: #f9f9f9;
     max-width: 25rem;
-    margin: 10% auto
+    margin: auto;
   }
   strong {
     font-style: bold;
@@ -204,5 +204,3 @@ body {
       font-size: 0.625rem;
       line-height: 1.5;
     }
-
- 
