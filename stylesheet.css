@@ -10,7 +10,7 @@ body {
     max-width: 25rem;
   }
   h1, h2, h3, h4, h5 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'open_sansextrabold'sans-serif;
     color:  #001833;
     font-style: normal;
   }
@@ -21,6 +21,7 @@ body {
     padding: 0 0 1% 0;
     color: #001833;
     font-weight: 800;
+    font-family: 'open_sansbold',sans-serif
   }
   header {
     background-color: #792110;
@@ -50,14 +51,14 @@ body {
   }
   .wrapper {
     margin: 0.5rem 0 ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'abhaya_libreregular', serif;
    
   }
   .about {
     padding: 4% 0;
   }
   .about p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'abhaya_libreregular', serif;
     font-style: normal;
     font-weight: 300;
     line-height: 1.70;
@@ -77,13 +78,14 @@ body {
   }
   .work h3 {
     padding: 10% 0;
+    font-family: 'open_sansbold',sans-serif;
   }
   .text-box {
     float: left;
     text-align: left;
     background-color: #fff;
     height: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'abhaya_libreregular', serif;
   }
   .text-box-content {
     padding: 1rem 3rem;
@@ -93,6 +95,7 @@ body {
     color: #616569;
     letter-spacing: .03rem;
     font-size: 1rem;
+    font-family: 'abhaya_libreregular', serif;
   }
   .button {
     padding: 5% 3%;
@@ -106,7 +109,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 4%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'open_sansbold', sans-serif;
   }
   .button:hover {
     color: #fff;
@@ -123,7 +126,8 @@ body {
     padding: 5% 0;
     margin-top: 5%;
     clear: both;
-    position: relative;
+    bottom: 0;
+    font-family: 'abhaya_libreregular', serif;
   }
   .contact-content {
     margin: 0 auto;
@@ -138,12 +142,9 @@ body {
   }
   .contact-content a {
     color: #fff;
-    text-decoration: none;
   }
-  .image-divider {
-    padding: 2rem 0;
-    background-size: cover;
-    background-position: center top;
+  .contact-content href {
+    text-decoration: underline;
   }
     .wrapper {
       padding: 0% 4%;
@@ -179,7 +180,7 @@ body {
       line-height: 1.5;
     }
 
-  
+/* Change to Logo Button */
   .back-button {
   background-color:white;
   border: 3px solid #792110;
@@ -194,10 +195,8 @@ body {
   text-transform: uppercase;
   font-weight: 600; 
   font-family: Arial, Helvetica, sans-serif;
-}
-.back-button:hover {
-  color: #fff;
-  background-color: #792110;
+  position: sticky;
+  top: 0; 
 }
 
- 
+/* navbar below */
